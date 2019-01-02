@@ -1,0 +1,1 @@
+{"strategyName":"SATYAAS","startDate":{"year":2019,"month":11,"day":11},"investmentInterval":12,"commissionFee":1.0,"amount":1.0,"stockAndPercentOfInvestment":{"AABA":100.0}}

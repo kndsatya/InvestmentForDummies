@@ -1,0 +1,1 @@
+{"portfolioName":"SATY","stocks":[{"tickerSymbol":"AABA","numberOfShares":2025,"buyDate":{"year":2018,"month":12,"day":4},"priceOfUnitShare":64.8,"commissionFee":0.0}],"uniqueStocksOfAPortfolio":["AABA"],"strategies":[]}
