@@ -21,8 +21,8 @@ So, as we are needed to create the data source object dynamically and pass to mo
 
 8. After a model is created the controller(Controller class from controller package) will be instantiated which will take the commands and the related arguments from the user line by line and calls the controller of that particular command to be executed. In order to make the design cleaner and accommodate any further additional commands we have used command design pattern for the controller.
 
-Changes as part of assignment 9:
----------------------------------
+Further enhancements to support three more functionalities:
+---------------------------------------------------------------
 1. Now along with the existing 4 packages we have one new package called view, so that we have segregated the duty of displaying the data and interaction with the user to the view. This view package contains an 'Iview' interface and a 'viewImpl' class. 
 
 2.To accommodate the new features, new methods are added to buy stocks with the
@@ -52,8 +52,8 @@ d. Also, in the total_cost_basis method we have included commission fee while ca
 
 4. Similarly, 3 new command classes are introduced to accommodate the new requirements in the controller package. Existing BUY_SHARE command is modified to include the commission fee as well.
 
-changes as part of Assignment 10:
-------------------------------------
+Further enchancements to include GUI view, have persistence by saving data to files:
+-----------------------------------------------------------------------------------------
 1. Now we have one more package for GUI controller. So, we now have a controller for the new GUI.
 
 2. The reason we have opted for new controller instead of using the existing controller is  that if we have used that existing controller we would have to read the data one prompt at a time and it doesn't mean any thing to the end user. He will not even remember what he has entered previously. So, in order for the user to have a better UI experience, we went ahead with creating a new GUI controller.
